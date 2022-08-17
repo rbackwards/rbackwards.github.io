@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Word Finder Game</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">Projects</a></li>
+						<li><a href="hangman.html">Hangman Game</a></li>
+						<li><a href="banking.html">Banking App</a></li>
+						<li><a href="stock.html">Stock Investing Practice</a></li>
+						<li class="active"><a href="wordfinder.html">Grid Word Finder</a></li>
+					</ul>				
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Word Finder Game Details</h1>
+									
+								</header>
+								<div class="image main"><img src="images/wordFinder.PNG" alt="" /></div>
+								<p>
+									In this game you find words with letters that are touching the current letter.  In this game you can play against multiple different users 
+									at the same time using signal r through .net.  Once the users have entered their username and select start, the game would begin.  
+									The game utiziles an api to check if the word is real and if it is real the user gets points.  Messages are shown when each user scores a word.
+									  When the game is over, it shows everyone's scores and the words they found during the game.
+								</p>
+								<img src="images/wordFinderCode1.PNG" alt="" class="center">
+								<p>
+									In this code snippet, you can see how the timer was set up and how we are using an async method to check if the timer should begin to all the users.
+									  As well you can see the async call to send all the users what word each user had selected.  Both of these are sent through signal r through our .net code.
+								</p>
+								<p><a href="https://github.com/AdamAguir/PlazmaELGGOB">GitHub</a></p>
+							</section>
+
+					</div>
+
+				
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
